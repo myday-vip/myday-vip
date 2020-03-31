@@ -20,7 +20,7 @@
     />
     <title>My Day | 我的天啊</title>
   </head>
-  <body class="text-gray-800 antialiased">
+  <body class="text-gray-800 antialiased" style="overflow-x:hidden">
     <nav
       class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
     >
@@ -110,6 +110,8 @@
           class="absolute top-0 w-full h-full bg-center bg-cover"
           style='background-image: url("./assets/img/banner1.png");'
         >
+          <video src="assets/video/newsea.mp4" poster="assets/img/banner1.png" autoplay="autoplay" muted="muted" loop="loop"
+          style="width: 100%;"></video>
           <span
             id="blackOverlay"
             class="w-full h-full absolute opacity-75 "
@@ -119,17 +121,17 @@
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div class="pr-12">
-<!--                <h1 class="text-white font-semibold text-5xl">
-                  My Day 我的一天
+                <h1 class="text-white font-semibold text-5xl">
+                  My Day 我的每一天
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
-                  我做了什么？
-                </p>-->
+                  回答自己，我做了什么？
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div
+<!--        <div
           class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
           style="height: 70px; transform: translateZ(0px);"
         >
@@ -147,7 +149,7 @@
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
-        </div>
+        </div>-->
       </div>
       <section class="pb-20 bg-gray-300 -mt-24">
         <div class="container mx-auto px-4">
@@ -704,7 +706,7 @@
             <div class="text-sm text-gray-600 font-semibold py-1">
               Copyright © 2020 我的天啊 by
               <a
-                href="https://www.creative-tim.com"
+                href="https://github.com/myday-vip"
                 class="text-gray-600 hover:text-gray-900"
                 >MYDAY Teams</a
               >.
